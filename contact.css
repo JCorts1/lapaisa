@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url(./img/pared.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 4rem;
+    width: 80%;
+    padding: 10px;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #FEDC1D, #6352FF,#FC3529 ) 1;   
+    box-shadow: 7px 5px 5px #242322;
+    
+}
+
+.card .box {
+    display: flex;
+}
+
+.card img {
+    width: 45%;
+    border-radius: 25px;
+
+}
+
+.card h2 {
+    color: #fff;
+    margin: 2.5rem;
+    font-family: paprika;
+    font-size: 38px;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+
+.textcard {
+    margin-top: 1.5rem;
+    font-family: paprika;
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.textcard ul {
+    font-size: 20px;
+    list-style: none;
+    margin-bottom: .5rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
