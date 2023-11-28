@@ -3,52 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./img/icon.png">
-    <title>La Paisa </title>
-    <link rel="stylesheet" href="./stylesindex.css">
+    <title>La Paisa</title>
+    <!--    FIX!!     -->
+    <link rel="icon" href="./img/icon.png"> 
+    <!--    --     -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Paprika&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <!--Intro / Flyer-->
+    <!--    Intro     -->
 
-    
     <div class="intro">
-        <img src="./img/intro.jpg" alt="introimage">
+        <nav class="navbar navbar-expand-sm bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="img-fluid" src="./img/logo.png" alt=""> La Paisa</a>
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a> 
+                </div>
+              </div>
+            </div>
+          </nav>
+          <img class="img-fluid" src="./img/lona.png" alt="">
     </div>
 
-    <div class="secondcontainer">
-        <img src="./img/empanadagif.gif" alt="">
-        <h1>Conoce nuestros productos!</h1>
-    </div>
+    <!-- Check our products -->
 
-    <!--Products-->
+    <div class="ourproducts">
+        <div class="divider">
+            <img class="img-fluid" src="./img/empanadagif.gif" alt="empanadagif">
+            <h2>Conoce Nuestros Productos!</h2>
+        </div>
 
-    <h2 class="empanadas">EMPANADAS!</h2>
+        <div class="congelados">
+        <div class="album py-0 bg-body-tertiary" data-bs-theme="dark">
+            <div class="container">
+                <h2 class="titlecongelados">Congelados</h2>
+        
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="./img/empanadasalvacio.png" class="bd-placeholder-img card-img-top img-fluid" width="80%" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Empanadas</title><rect width="80%" height="80%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Empanadas</text  alt="Empanadas">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="./img/chorizos.png" class="bd-placeholder-img card-img-top img-fluid" width="80%" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Empanadas</title><rect width="80%" height="80%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Chorizos</text  alt="Chorizos">
+                        <div class="card-body">
+                          <div class="d-flex justify-content-between align-items-center">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                          <img src="./img/brocheticas.png" class="bd-placeholder-img card-img-top img-fluid" width="80%" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Brochetas</title><rect width="80%" height="80%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Brochetas</text  alt="Chorizos">
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img src="./img/bunueloscongelados.png" class="bd-placeholder-img card-img-top img-fluid" width="80%" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Bunuelos</title><rect width="80%" height="80%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Bunuelos</text  alt="Bunuelos">
+                          <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hotfood">
+                        <img src="./img/arepagif.gif" alt="arepagif">
+                        <h2><a href="hotfood.html">Comida caliente❤ </a></h2>
 
-    <div class="flexcontainerempanadas">
-        <div class="grid-item"><img src="./img/empanadacruda.jpg" alt="Emapandas crudas"></div>
-        <div class="grid-item"><img src="./img/empanadascaseras.jpg" alt="Empanadas fritas"> </div>
-        <div class="grid-item"> <img src="./img/unaemapanada.jpg" alt="Una empanada"></div>
-    </div>
-
-    <div class="bunuelos">
-        <h2 class="bunuelos">BUÑUELOS</h2>
-        <div class="flexcontainerbuenuelos">
-            <div class="grid-item"><img src="./img/multiplebunuelos.jpg" alt="muchobunuelos"></div>
-            <div class="grid-item"><img src="./img/bunuelosfritos.jpg" alt="bunuelosfritos"></div>
-            <div class="grid-item"><img src="./img/rellenobunuelo.jpg" alt="bunuelorelleno"></div>
+                      </div>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
 
-    <div class="chorizos">
-        <h2 class="chorizosh2">CHORIZOS</h2>
-        <div class="flexcontainerchorizos">
-            <div class="grid-item"><img src="./img/firstchorizo.jpg" alt="PLatoconchorizos"></div>
-            <div class="grid-item"><img src="./img/chorizodos.jpg" alt="Chorizos"></div>
-        </div>
-    </div>
+    <footer>
+
+    </footer>
+
+
     
 </body>
 </html>

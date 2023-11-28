@@ -1,0 +1,61 @@
+.intro {
+    font-family: paprika;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.divider {
+    background-color: #202428;
+    display: flex;
+    width: 100%;
+}
+
+.divider img {
+    width: 25%;
+}
+
+.ourproducts {
+    font-family: paprika;
+}
+
+.divider h2 {
+    margin-top: 10%;
+    color: #fff;
+}
+
+.container {
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url(./img/flag.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.congelados h2 {
+    color: #fff;
+    padding-top: 10%;
+    padding-left: 35%;
+    margin-bottom: 10%;
+}
+
+.hotfood {
+    margin-top: 2rem;
+    display: inline-flex;
+}
+
+.hotfood img {
+    margin-left: 2rem;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.hotfood h2 a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+
