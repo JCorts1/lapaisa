@@ -22,16 +22,15 @@
 
 .divider h2 {
     margin-top: 10%;
+    margin-left: 10%;
+    padding-bottom: 5%;
     color: #fff;
 }
 
 .container {
     margin-top: 0;
     padding-top: 0;
-    background-image: url(./img/flag.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+   
 }
 
 .congelados h2 {
@@ -56,6 +55,51 @@
     margin-right: 2rem;
     text-decoration: none;
     color: #fff;
+}
+
+.grid-hotfood {
+    display: inline-grid;
+    gap: 10px;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1rf 1fr;
+    margin: 8%;
+}
+
+.itemgrid {
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgb(52, 52, 52);
+
+}
+
+.ourproducts {
+    background-image: url(./img/flag.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+/* Footer */
+
+
+
+footer { 
+    background-color: #181B1E;
+}
+
+.containerfoot footer p {
+    font-family: paprika;
+    color: #fff;
+}
+
+ul li a img {
+    color: white;
+}
+
+.divider {
+    margin-bottom: 0;
 }
 
 
